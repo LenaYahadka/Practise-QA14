@@ -1,0 +1,27 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test ('Age=age', function () {
+    let req_data=request.data;
+    let resp_data=pm.response.json();
+    pm.expect(resp_data.age).to.eql(req_data.age);
+    console.log(resp_data.age + '=' + req_data.age);
+
+
+});
+pm.test('Age_type_is_correct', function () {
+    let req_data=request.data;
+    let resp_data=pm.response.json();
+    let user_age="underage";
+    pm.expect(resp_data.age_type).to.eql(user_age);
+    console.log(resp_data.age_type + '=' + user_age);
+});
+
+pm.test('Age_content', function () {
+    let req_data=request.data;
+    let resp_data=pm.response.json();
+    let user_age_content="8";
+    pm.expect(resp_data.content.length).to.eql(Number(user_age_content));
+    console.log(resp_data.content.length + '='+ user_age_content);
+});// JSON Document
