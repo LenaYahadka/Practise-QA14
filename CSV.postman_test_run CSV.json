@@ -1,0 +1,77 @@
+{
+	"id": "3b548382-b260-4b3f-a54d-4b967d98b491",
+	"name": "CSV",
+	"timestamp": "2021-04-04T12:31:01.848Z",
+	"collection_id": "305205fc-5e9b-4a40-a8cb-3ba85e386bdc",
+	"folder_id": 0,
+	"environment_id": "2249b3fe-c80f-4794-b329-9aa7b47c48b2",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c8252bc4-85ff-4114-b787-b3bc4686e8b1",
+			"name": "New Request",
+			"time": 385,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1052,
+				1123,
+				392,
+				365,
+				356,
+				322,
+				336,
+				1408,
+				2168,
+				375,
+				392,
+				388,
+				341,
+				382,
+				340,
+				335,
+				1382,
+				365,
+				383,
+				385
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 20,
+	"totalTime": 12590,
+	"collection": {
+		"requests": [
+			{
+				"id": "c8252bc4-85ff-4114-b787-b3bc4686e8b1",
+				"method": "POST"
+			}
+		]
+	}
+}

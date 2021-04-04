@@ -1,0 +1,178 @@
+{
+	"id": "85d8b26b-8aee-4634-8bec-7107c6f8b076",
+	"name": "QA14 test 1 Vadim",
+	"timestamp": "2021-04-04T12:39:54.627Z",
+	"collection_id": "198064bd-6b89-43b9-ba34-ed71ef2aaf71",
+	"folder_id": 0,
+	"environment_id": "2249b3fe-c80f-4794-b329-9aa7b47c48b2",
+	"totalPass": 68,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1ae68f93-900a-42e7-92f7-266c29fc0af2",
+			"name": "age europe 10",
+			"time": 408,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Age=age": true,
+				"Age_type_is_corrrect": true,
+				"Age_content": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 17,
+					"fail": 0
+				},
+				"Age=age": {
+					"pass": 17,
+					"fail": 0
+				},
+				"Age_type_is_corrrect": {
+					"pass": 17,
+					"fail": 0
+				},
+				"Age_content": {
+					"pass": 17,
+					"fail": 0
+				}
+			},
+			"times": [
+				2496,
+				466,
+				495,
+				3566,
+				1141,
+				444,
+				431,
+				477,
+				478,
+				505,
+				530,
+				410,
+				467,
+				1646,
+				473,
+				1453,
+				408
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				},
+				{
+					"Status code is 200": true,
+					"Age=age": true,
+					"Age_type_is_corrrect": true,
+					"Age_content": true
+				}
+			]
+		}
+	],
+	"count": 17,
+	"totalTime": 15886,
+	"collection": {
+		"requests": [
+			{
+				"id": "1ae68f93-900a-42e7-92f7-266c29fc0af2",
+				"method": "POST"
+			}
+		]
+	}
+}
